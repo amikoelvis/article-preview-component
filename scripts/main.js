@@ -9,23 +9,23 @@ function isMobileView() {
 
 shareBtn.addEventListener('click', () => {
   if (isMobileView()) {
-    authorSection.classList.add('hidden');
-    shareMenu.classList.remove('hidden');
+    authorSection.classList.add('hidden'); // Hide author section on mobile view
+    shareMenu.classList.remove('hidden'); // Show share menu on mobile view
   } else {
-    shareMenu.classList.toggle('hidden');
+    shareMenu.classList.toggle('hidden'); // Toggle share menu on larger screens
   }
 });
 
 if (closeBtn) {
   closeBtn.addEventListener('click', () => {
-    shareMenu.classList.add('hidden');
-    authorSection.classList.remove('hidden');
-  });
+    shareMenu.classList.add('hidden'); // Hide share menu
+    authorSection.classList.remove('hidden'); // Show author section
+  }); // Hide share menu on close button click
 }
 
 window.addEventListener('resize', () => {
   if (!isMobileView()) {
-    authorSection.classList.remove('hidden');
-    shareMenu.classList.add('hidden');
+    authorSection.classList.remove('hidden'); // Show author section on larger screens
+    shareMenu.classList.add('hidden'); // Hide share menu on larger screens
   }
-});
+}); // Ensure author section is visible on resize

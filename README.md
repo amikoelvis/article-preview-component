@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View Solution on Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Visit Live Site](https://your-live-site-url.com)
+- Solution URL: [View Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-article-preview-component-using-tailwind-css-and-javascript-J_P_IGfDvD)
+- Live Site URL: [Visit Live Site](https://article-preview-component-theta-self.vercel.app/)
 
 ## My process
 
@@ -70,7 +70,7 @@ In future projects, I want to:
 
 ## Author
 
-- Website - [Amiko Elvis](https://www.your-site.com)
+- Website - [Amiko Elvis](https://article-preview-component-theta-self.vercel.app/)
 - Frontend Mentor - [@amikoelvis](https://www.frontendmentor.io/profile/amikoelvis)
 - Twitter - [@ElvisAmiko](https://www.twitter.com/ElvisAmiko)
 

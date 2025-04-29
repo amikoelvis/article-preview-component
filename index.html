@@ -10,7 +10,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
     <title>Frontend Mentor | Article preview component</title>
   </head>
-  <body class="bg-gray-100 flex justify-center items-center min-h-screen font-manrope text-[13px] p-6">
+  <body class="bg-gray-100 flex justify-center items-center min-h-screen font-manrope text-base p-6">
     <div class="relative max-w-[375px] flex flex-col bg-white rounded-lg shadow-lg overflow-visible md:max-w-[730px] md:flex-row">
 
       <!-- Image Section -->
@@ -36,7 +36,7 @@
               <img class="rounded-full h-10 w-10 mr-4" src="images/avatar-michelle.jpg" alt="Michelle Appleton" />
               <div>
                 <h2 class="text-gray-800 font-bold text-sm">Michelle Appleton</h2>
-                <p class="text-gray-500 font-medium text-[13px]">28 Jun 2020</p>
+                <p class="text-gray-500 font-medium text-xs">28 Jun 2020</p>
               </div>
             </div>
             <!-- Share Button -->
@@ -48,10 +48,10 @@
     </div>
 
     <!-- Share Menu -->
-    <div id="share-menu" class="hidden absolute bottom-0 left-0 right-0 bg-gray-700 text-white p-4 flex items-center justify-evenly space-x-4 rounded-b-lg z-10 mt-10 md:bottom-auto md:left-auto md:top-[100px] md:w-[250px] md:rounded-lg md:shadow-lg md:p-4 md:translate-x-[-50%] md:right-[-215px] [&::after]:hidden md:[&::after]:block md:[&::after]:absolute md:[&::after]:top-full md:[&::after]:left-1/2 md:[&::after]:-translate-x-1/2 md:[&::after]:border-8 md:[&::after]:border-transparent md:[&::after]:border-t-gray-700">
+    <div id="share-menu" class="hidden bg-gray-700 absolute bottom-0 left-0 right-0  text-white p-4 flex items-center justify-evenly space-x-4 rounded-b-lg z-10 mt-10 md:bottom-auto md:left-auto md:top-[100px] md:w-[250px] md:rounded-lg md:shadow-lg md:p-4 md:translate-x-[-50%] md:right-[-215px] [&::after]:hidden md:[&::after]:block md:[&::after]:absolute md:[&::after]:top-full md:[&::after]:left-1/2 md:[&::after]:-translate-x-1/2 md:[&::after]:border-8 md:[&::after]:border-transparent md:[&::after]:border-t-gray-700">
       
     <!-- Bubble Triangle for Desktop -->
-    <div class="hidden md:block absolute bottom-[-6px] left-1/2 -translate-x-1/2 w-3 h-3 bg-gray-700 rotate-45 z-30"></div>
+    <div class="hidden md:block absolute w-3 h-3 bg-gray-700 bottom-[-6px] left-1/2 -translate-x-1/2  rotate-45 z-30"></div>
     <span class="text-gray-400 text-[13px] uppercase tracking-[.25em]">Share</span>
     <a href="#" aria-label="Facebook">
       <img src="images/icon-facebook.svg" alt="Facebook" class="w-4 h-4" />
